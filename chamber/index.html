@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Isidro Chamber of Commerce</title>
+    <meta name="description"
+        content="This is the website of San Isidro Chamber of Commerce, a local economic catalyst, driver of innovation and community advocate.">
+    <meta name="author" content="Claudia Esparza">
+    <link rel="icon" href="cat.ico">
+    <meta property="og:title" content="San Isidro Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://media.istockphoto.com/id/1143525385/es/foto/distrito-de-san-isidro-en-la-hora-azul-en-lima-per%C3%BA.jpg?s=170667a&w=0&k=20&c=2w4BsrCdLxSJAmHqFfHRFlGWl25cDQ275ZZYA0y1Cs8=">
+    <meta property="og:url" content="https://clabies.github.io/wdd230/chamber/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/2098439-removebg-preview.png" alt="Chamber of Commerce Logo">
+        <div id="spanHead">
+            <span>San Isidro<br></span>
+            <p>Chamber of Commerce</p>
+        </div>
+        <div id="mode">🕶️</div>
+        <button id="menu" title="Menu"></button>
+    </header>
+    <nav>
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <img src="images/800px-Lima_-_San_Isidro_Skyline.jpg" alt="San Isidro">
+            <h1>San Isidro Chamber of Commerce</h1>
+            <a href="join.html" class="call" id="join" title="Join The Chamber">Join The Chamber</a>
+        </section>
+        <div class="parent">
+
+            <section class="card">
+                <h2 class="cardTitle" id="titleEvents">Events</h2>
+                <div class="child" id="currentEvent">
+                    <h3>Entrepreneurship Workshop 👩🏻‍💻</h3>
+                    <p>Join to receive this 100% virtual workshop. Friday at 18:00</p>
+                    <a href="discover.html">more info...</a>
+                </div>
+            </section>
+            <section class="card">
+                <h2 class="cardTitle">Whether</h2>
+                <div class="child" id="localWhether">
+                    <div id="contry">Lima, Peru ☀️</div>
+                    <div id="weather">Partly Sunny</div>
+                    <div id="humidity">Humidity: 10%</div>
+                    <div id="windChill">Wind Chill: N/A</div>
+                </div>
+            </section>
+            <section class="card" id="spotlightCard">
+                <h2 class="cardTitle">Members Spotlights</h2>
+                <div class="memberSpotlight">
+                    <article class="child">
+                        <h3 class="company">☎️ Contact Phone</h3>
+                        <div class="slogan"></div>
+                        <div class="contact">
+                            <ul>
+                                <li><a href="">contact@sanisidro.com</a></li>
+                                <li><a href="">+51 902 419 730</a></li>
+                                <li><a href="">website</a></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="child">
+                        <h3 class="company">💽 Events info</h3>
+                        <div class="slogan"></div>
+                        <div class="contact">
+                            <ul>
+                                <li><a href="">events@info.com</a></li>
+                                <li><a href="">+51 995 168 455</a></li>
+                                <li><a href="">website</a></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="child">
+                        <h3 class="company">🔐 Security</h3>
+                        <div class="slogan"></div>
+                        <div class="contact">
+                            <ul>
+                                <li><a href="">security@sanisidro.com</a></li>
+                                <li><a href="">+51 958 158 777</a></li>
+                                <li><a href="">website</a></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>info@sanisidro.org</p>
+        <p>+51 902 419 730</p>
+        <img src="images/2098439-removebg-preview.png" alt="peruvian flag">
+        <div id="rights">
+            <p id="copyright">© Claudia Esparza</p>
+        </div>
+        <p>WDD 230 Project</p>
+        <p id="lastModified">Last Modification: to implement</p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+</body>
+
+</html>
