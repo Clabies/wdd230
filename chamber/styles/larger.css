@@ -15,6 +15,13 @@
         column-gap: 10px;
     }
 
+    .photosContainer img:hover {
+        border-radius: 20px 150px;
+    }
+    #cardEvents {
+        grid-column: 1 / 3;
+    }
+    
     #spotlightCard {
         grid-column: 1 / 3;
     }
@@ -36,6 +43,10 @@
         margin-left: 45%;
     }
 
+    #photosInterest {
+        grid-row: 1 / 6;
+        grid-column: 2 / 4;
+
     .card {
         box-shadow: 1px 1px 10px black;
     }
@@ -56,7 +67,7 @@
         display: block;
     }
 
-    h1 {
+    #heroTitle {
         background-color: rgb(229, 229, 229, 0.4);
         border-radius: 10px;
         font-size: 2rem;
@@ -68,10 +79,15 @@
         right: 1.5rem;
     }
 
+    #sectionTitle {
+        margin: 1rem 2vw;
+    }
+
     #join {
         position: absolute;
         top: 5.8rem;
         right: 4rem;
         transform: translateX(0%);
     }
+}
 }
