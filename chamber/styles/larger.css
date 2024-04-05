@@ -19,6 +19,9 @@
         border-radius: 20px 150px;
     }
     #cardEvents {
+        grid-column: 1 / 3;
+    }
+
     #spotlightCard {
         grid-column: 1 / 3;
         grid-column: 1 / 3;
@@ -47,10 +50,13 @@
     #photosInterest {
         grid-row: 1 / 6;
         grid-column: 2 / 4;
+<<<<<<< HEAD
     }
     .photosContainer{
         padding: 20px;
     }
+=======
+>>>>>>> 887bc998c2007d298ffc0681a14efeea06b51a9b
 
     .card {
         box-shadow: 1px 1px 10px black;
@@ -82,6 +88,10 @@
         position: absolute;
         top: 1rem;
         right: 1.5rem;
+    }
+
+    #sectionTitle {
+        margin: 1rem 2vw;
     }
 
     #join {
