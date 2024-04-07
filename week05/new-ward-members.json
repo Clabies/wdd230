@@ -1,0 +1,23 @@
+{
+    "familyName": "Monroe",
+    "dateMoved": "11-19-2023",
+    "numberMembers": 3,
+    "VisitedBishopric": "true",
+    "members": [
+        {
+            "name": "Jordi",
+            "gender": "male",
+            "birthDate": "04-11-1995"
+        },
+        {
+            "name": "Claudia",
+            "gender": "female",
+            "birthDate": "12-19-1997"
+        },
+        {
+            "name": "Amber",
+            "gender": "female",
+            "birthDate": "04-01-2022"
+        }
+    ]
+}
