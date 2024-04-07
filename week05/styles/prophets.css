@@ -9,9 +9,9 @@ header, main, footer {
 }
 
 h1 {
-    color: #000;
+    color: #567f9b;
     border-bottom: 1px solid #eee;
-    text-shadow: 0 0 15px #777;
+    text-shadow: 0 0 15px #af8e8e;
     width: 60%;
 }
 
@@ -20,9 +20,9 @@ main {
 }
 
 h2 {
-    color: navy;
+    color: rgb(96, 150, 185);
     margin: 0 0 1rem 0;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid #e6dede;
 }
 
 #cards {
@@ -34,7 +34,7 @@ section {
     margin: 0.25rem;
     padding: 0.35rem;
     background-color: #eee;
-    border: 1px solid #bbb;
+    border: 1px solid rgb(96, 150, 185);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,13 +48,13 @@ section p {
 img {
     width: auto;
     max-width: 325px;
-    box-shadow: 0 0 30px #777;
-    height: 200px;
+    box-shadow: 0 0 30px rgb(92, 102, 109);
+    height: 250px;
     border: 1px solid #333;
 }
 
 footer {
-    border-top: 1px solid #555;
+    border-top: 1px solid #b3b1b1;
     padding: 20px;
     text-align: center;
 }
