@@ -90,7 +90,7 @@ nav {
     overflow: hidden;
 }
 
-nav ul {
+ul {
     list-style-type: none;
 }
 
@@ -148,17 +148,13 @@ nav .active {
     border-radius: 10px;
     margin: 1rem 0;
     overflow: hidden;
+    padding: 10px;
 }
 
 .cardTitle {
     color: rgb(117, 179, 158);
     display: block;
     text-align: center;
-    padding: 10px;
-}
-
-#findUs {
-    padding: 20px
 }
 
 .child {
@@ -181,6 +177,13 @@ nav .active {
     font-weight: 600;
 }
 
+#findUs {
+    padding-bottom: 20px;
+}
+#find {
+    margin-left: 32%;
+}
+
 #join {
     position: absolute;
     top: 28%;
@@ -188,8 +191,8 @@ nav .active {
     transform: translateX(+7%);
 }
 
-#calendar {
-    text-align: center;
+#calendar iframe {
+    width: 100%;
 }
 
 footer {
