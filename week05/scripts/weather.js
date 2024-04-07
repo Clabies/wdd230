@@ -1,4 +1,4 @@
-import API_KEY from "../../scripts/config.js";
+import API_KEY from "";
 
 const currentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather-icon");
