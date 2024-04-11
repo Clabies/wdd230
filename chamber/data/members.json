@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "🥙 Astrid y Gastón",
+            "address": "Av. Paz Soldán 290, San Isidro 15073",
+            "phoneNumber": "01 442 277 7",
+            "website": "http://www.astridygaston.com/",
+            "image": "images/PZHXK4NEXJEFVGBHTORDHY6V7E.jpg",
+            "membershipLevel": "silver",
+            "description": "Refined restaurant specializing in regional seafood and meat dishes, as well as cocktails and wine."
+        },
+        {
+            "name": "🎥 Cineplanet Alcazar",
+            "address": "Av. Sta. Cruz 814, Lima 15073",
+            "phoneNumber": "902 419 730",
+            "website": "https://www.cineplanet.com.pe/",
+            "image": "images/FEKYHJWEBBE3DJ2AC7M72HGCIU.avif",
+            "membershipLevel": "bronze",
+            "description": "Peruvian cinema where you will enjoy the best movies."
+        },
+        {
+            "name": "💉 SANNA Clínica El Golf",
+            "address": "Av. Aurelio Miró Quesada 1030, San Isidro 15073",
+            "phoneNumber": "01 635 5000",
+            "website": "https://www.sanna.pe/",
+            "image": "images/Clinica-Sanna-El-Golf.jpg",
+            "membershipLevel": "silver",
+            "description": "SANNA, the largest private health network in the country."
+        },
+        {
+            "name": "🐬 Delfines Hotel & Convention Center",
+            "address": "Ca. Los Eucaliptos 555, San Isidro 15076",
+            "phoneNumber": "01 215 700 0",
+            "website": "https://www.losdelfineshotel.com/",
+            "image": "images/exterior-view.jpg",
+            "membershipLevel": "golden",
+            "description": "Delfines Hotel & Convention Center is one of the leading 5-star conference hotels in Lima, Peru."
+        },
+        {
+            "name": "🧑🏻‍🎓 Instituto Tecnológico de Monterrey",
+            "address": "C. Las Palmeras 435, San Isidro 15073",
+            "phoneNumber": "01 708 040 0",
+            "website": "http://www.educaedu.com.pe/",
+            "image": "images/TEC-BIBLIOTECA.jpg",
+            "membershipLevel": "golden",
+            "description": "Leadership, innovation and entrepreneurship for human flourishing."
+        },
+        {
+            "name": "🏦 Interbank",
+            "address": "Avenida Enrique Canaval y Moreyra, San Isidro 15047",
+            "phoneNumber": "01 219 200 0",
+            "website": "https://interbank.pe/",
+            "image": "images/Torre_de_noche.jpg",
+            "membershipLevel": "silver",
+            "description": "It's time to go for more."
+        },
+        {
+            "name": "🛍️ Falabella",
+            "address": "Av. P.º de la República 3220, San Isidro 15046",
+            "phoneNumber": "01 512 333 3",
+            "website": "https://www.falabella.com.pe/falabella-pe",
+            "image": "images/65622ce57026684de61498f2.jpg",
+            "membershipLevel": "bronze",
+            "description": "Everything you want is in Falabella."
+        }
+    ]
+}

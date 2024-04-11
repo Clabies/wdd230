@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 22,
+    "editor.minimap.sectionHeaderFontSize": 15,
+    "debug.console.fontSize": 20,
+    "scm.inputFontSize": 19,
+    "terminal.integrated.fontSize": 20,
+    "chat.editor.fontSize": 20
+}
