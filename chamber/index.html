@@ -46,75 +46,53 @@
             <a href="join.html" class="call" id="join" title="Join The Chamber">Join The Chamber</a>
         </section>
         <div class="parent">
-
-            <section class="card">
+            <div class="banner">
+                <div class="banner-content">
+                    <h2>Join us at the Chamber of Commerce meeting on Wednesday at 20:00</h2>
+                    <button class="close-button">❌</button>
+                </div>
+            </div>
+            <section class="card" id="cardEvents">
                 <h2 class="cardTitle" id="titleEvents">Events</h2>
                 <div class="child" id="currentEvent">
-                    <h3>Entrepreneurship Workshop 👩🏻‍💻</h3>
-                    <p>Join to receive this 100% virtual workshop. Friday at 18:00</p>
+                    <h3>Entrepreneurship Workshop 🏢</h3>
+                    <p>Join us for this workshop taking place on Friday at 6:00 p.m.</p>
                     <a href="discover.html">more info...</a>
                 </div>
             </section>
             <section class="card">
                 <h2 class="cardTitle">Whether</h2>
-                <div class="child" id="localWhether">
-                    <div id="contry">Lima, Peru ☀️</div>
-                    <div id="weather">Partly Sunny</div>
-                    <div id="humidity">Humidity: 10%</div>
-                    <div id="windChill">Wind Chill: N/A</div>
+                <div class="child">
+                    <div id="weather-container">
+                        <h3>Current Weather</h3>
+                        <p>Temperature: <span id="current-temperature"></span></p>
+                        <p>Description: <span id="weather-description"></span></p>
+                        <h3>3-Day Forecast</h3>
+                        <ul>
+                            <li>01 Day latter: <span class="forecast-temp"></span></li>
+                            <li>02 Days latter: <span class="forecast-temp"></span></li>
+                            <li>03 Days latter: <span class="forecast-temp"></span></li>
+                        </ul>
+                    </div>
                 </div>
             </section>
             <section class="card" id="spotlightCard">
                 <h2 class="cardTitle">Members Spotlights</h2>
-                <div class="memberSpotlight">
-                    <article class="child">
-                        <h3 class="company">☎️ Contact Phone</h3>
-                        <div class="slogan"></div>
-                        <div class="contact">
-                            <ul>
-                                <li><a href="">contact@sanisidro.com</a></li>
-                                <li><a href="">+51 902 419 730</a></li>
-                                <li><a href="">website</a></li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article class="child">
-                        <h3 class="company">💽 Events info</h3>
-                        <div class="slogan"></div>
-                        <div class="contact">
-                            <ul>
-                                <li><a href="">events@info.com</a></li>
-                                <li><a href="">+51 995 168 455</a></li>
-                                <li><a href="">website</a></li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article class="child">
-                        <h3 class="company">🔐 Security</h3>
-                        <div class="slogan"></div>
-                        <div class="contact">
-                            <ul>
-                                <li><a href="">security@sanisidro.com</a></li>
-                                <li><a href="">+51 958 158 777</a></li>
-                                <li><a href="">website</a></li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
+                <div class="memberSpotlight"></div>
             </section>
             <section class="card" id="findUs">
-                <h2 class="cardTitle"> "You have to see failure as the beginning and the middle, but never entertain it as an end.”</h2>
+                <h2 class="cardTitle"> “You have to see failure as the beginning and the middle, but never entertain it as an end.”</h2>
                 <p class="child">- Jessica Herrin -</p>
-                <a href="https://www.google.com/maps/place/Municipalidad+de+San+Isidro+-+Policl%C3%ADnico+Municipal/@-12.1066572,-77.0514324,17.75z/data=!3m1!5s0x9105c9acc697b897:0xd41efdfea623794!4m14!1m7!3m6!1s0x9105c9acc6678fa3:0x7393ab5183805b45!2sBloom+Tower!8m2!3d-12.0939522!4d-77.0575606!16s%2Fg%2F11c31t6qb_!3m5!1s0x9105c84a3bc4cd59:0xbed32fa28cae52a5!8m2!3d-12.1077072!4d-77.0504431!16s%2Fg%2F11bz00zp0s?entry=ttu" class="call" id="find" title="We are located">Find Us</a>
+                <a href="https://maps.app.goo.gl/MTj8fWfr5LtgGT2Y8" class="call" id="find" title="We are located">Find Us</a>
             </section>
         </div>
     </main>
     <footer>
-        <p>info@sanisidro.org</p>
+        <p>info@sanisidrocc.org</p>
         <p>+51 902 419 730</p>
-        <img src="images/2098439-removebg-preview.png" alt="peruvian flag">
+        <img src="images/flag.jpg" alt="peruvian flag">
         <div id="rights">
-            <p id="copyright">© Claudia Esparza</p>
+            <p id="copyright">© Claudia Esparza </p>
         </div>
         <p>WDD 230 Project</p>
         <p id="lastModified">Last Modification: to implement</p>
@@ -122,6 +100,9 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgermenu.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/weather.js" type="module"></script>
+    <script src="scripts/getSpotlight.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 
 </html>

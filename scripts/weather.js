@@ -5,8 +5,8 @@ const currentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("#desc");
 
-const lat = "-12.05";
-const lon = "-77.04";
+const lat = "-8.11";
+const lon = "-79.03";
 const api_key = API_KEY;
 const units = "imperial";
 
@@ -33,7 +33,7 @@ const displayResults = (data) => {
     let description = data.weather[0].description;
     weatherIcon.setAttribute("src", iconSrc);
     weatherIcon.setAttribute("alt", description);
-    city.textContent = "Lima, Peru";
+    city.textContent = "Trujillo, Peru";
     captionDesc.textContent = description;
 }
 

@@ -1,2 +1,2 @@
-const API_KEY = "";
+const API_KEY = "188886f2d980d81c6896e8644638507b";
 export default API_KEY;
